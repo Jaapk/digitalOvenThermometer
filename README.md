@@ -12,7 +12,9 @@ https://www.ti.com/lit/ds/symlink/pcf8574.pdf
   through i2c using pcf8574
   Displays the numbers 0-9 on the display, with one second inbetween.
 
-<img title="a title" alt="Alt text" src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/02/7_segment_display_labeled.svg/1200px-7_segment_display_labeled.svg.png
+<img title="7 segment display" alt="Led Display" src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/02/7_segment_display_labeled.svg/1200px-7_segment_display_labeled.svg.png>
+
+[![Alt text](https://upload.wikimedia.org/wikipedia/commons/thumb/0/02/7_segment_display_labeled.svg/1200px-7_segment_display_labeled.svg.png)](https://wikimedia.org)
 
 value to display number on 7 segment led display 
 
