@@ -11,15 +11,8 @@ https://www.ti.com/lit/ds/symlink/pcf8574.pdf
   Showing number 0-9 on a Common Anode 7-segment LED display 
   through i2c using pcf8574
   Displays the numbers 0-9 on the display, with one second inbetween.
-    A
-   ---
-F |   | B
-  | G |
-   ---
-E |   | C
-  |   |
-   ---
-    D
+
+<img title="a title" alt="Alt text" src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/02/7_segment_display_labeled.svg/1200px-7_segment_display_labeled.svg.png
 
 value to display number on 7 segment led display 
 
