@@ -10,11 +10,18 @@ https://www.ti.com/lit/ds/symlink/pcf8574.pdf
 
   Showing number 0-9 on a Common Anode 7-segment LED display 
   through i2c using pcf8574
+  
+The display has 4 positions where only three are used, each position is addressed seperatetely. 
+
+PCF8574 PCF_24(0x24);  // dp - add leds to lines      (used as output)
+PCF8574 PCF_34(0x34);  // unused position - add leds to lines      (used as output)
+PCF8574 PCF_35(0x35);  // position c - add leds to lines      (used as output)
+PCF8574 PCF_36(0x36);  // position b - add leds to lines      (used as output)
+PCF8574 PCF_37(0x37);  // position a - add leds to lines      (used as output)
+  
   Displays the numbers 0-9 on the display, with one second inbetween.
 
-<img title="7 segment display" alt="Led Display" src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/02/7_segment_display_labeled.svg/1200px-7_segment_display_labeled.svg.png>
-
-[![Alt text](https://upload.wikimedia.org/wikipedia/commons/thumb/0/02/7_segment_display_labeled.svg/1200px-7_segment_display_labeled.svg.png)](https://wikimedia.org)
+[![7 Segment Led Display](https://upload.wikimedia.org/wikipedia/commons/thumb/0/02/7_segment_display_labeled.svg/1200px-7_segment_display_labeled.svg.png)](https://wikimedia.org)
 
 value to display number on 7 segment led display 
 

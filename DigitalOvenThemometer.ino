@@ -32,16 +32,16 @@ E |   | C
 //#include <Wire.h>
 #define PCF8574_ADDR (0x24)
 
+// The display has 4 positions where only three are used, each position is addressed seperatetely. 
 
-PCF8574 PCF_24(0x24);  // add leds to lines      (used as output)
-PCF8574 PCF_34(0x34);  // add leds to lines      (used as output)
-PCF8574 PCF_35(0x35);  // add leds to lines      (used as output)
-PCF8574 PCF_36(0x36);  // add leds to lines      (used as output)
-PCF8574 PCF_37(0x37);  // add leds to lines      (used as output)
+PCF8574 PCF_24(0x24);  // dp - add leds to lines      (used as output)
+PCF8574 PCF_34(0x34);  // unused position - add leds to lines      (used as output)
+PCF8574 PCF_35(0x35);  // position c - add leds to lines      (used as output)
+PCF8574 PCF_36(0x36);  // position b - add leds to lines      (used as output)
+PCF8574 PCF_37(0x37);  // position a - add leds to lines      (used as output)
 
 
-
-int a;
+int a; 
 int b;
 int c;
 int delay_value = 1000;
